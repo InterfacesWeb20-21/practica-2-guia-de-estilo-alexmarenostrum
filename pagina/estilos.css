@@ -1,0 +1,109 @@
+body {
+    padding: 10px;
+}
+
+#cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    letter-spacing: 2px;
+}
+
+.idioma {
+    width: 30px;    
+}
+
+.idioma:nth-of-type(1) {
+    margin-right: 0.6rem;
+}
+
+#animacion {    
+    height: 20vh;
+}
+
+nav {
+    display: flex;
+    background-color: #333;
+    margin-top: 1.4rem;
+    padding: 10px 0 10px 10px;
+    margin-bottom: 2rem;
+}
+
+nav span {        
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 18px;  
+    letter-spacing: 1px;  
+    font-weight: normal;
+}
+
+.elemento {
+    font-weight: bold;
+}
+
+.subMenu {
+    display: none;    
+    margin-left: 5px;
+}
+
+.subMenu a {
+    display: block;
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.elemento:hover .subMenu {
+    display: block;  
+    position: relative;
+    left: 14%;  
+    margin-top: 10px;    
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: normal;
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 1.2px;
+}
+
+#galeria {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+#fotosDestacadas {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 2rem;
+    column-gap: 10rem;    
+}
+
+#fotosDestacadas img {
+    width: 200px;
+}
+
+footer {
+    background-color: #333;
+    padding: 10px;
+}
+
+footer h3 {
+    letter-spacing: 1.2px;
+    color: #ffffff;
+    margin-top: 0;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 1.1rem;
+}
