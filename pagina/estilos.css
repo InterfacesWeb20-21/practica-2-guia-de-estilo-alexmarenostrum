@@ -12,7 +12,7 @@ body {
 #cabecera h1 {
     letter-spacing: 2px;
     color: #957f73;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .idioma {
@@ -36,11 +36,11 @@ nav {
 }
 
 nav span {        
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #fffcf0;
     text-align: center;
     padding: 14px 18px;  
-    letter-spacing: 1.5px;  
+    letter-spacing: 2px;  
     font-weight: bold;
 }
 
@@ -56,7 +56,7 @@ nav span {
 .subMenu a {
     display: block;
     color: #ffffff;
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     margin-bottom: 10px;
 }
 
@@ -80,7 +80,7 @@ h2 {
     text-align: center;
     letter-spacing: 1.2px;
     color: #968973;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
 #galeria {
@@ -108,13 +108,13 @@ footer {
 
 footer h3 {
     letter-spacing: 1.2px;
+    font-size: 1.2rem;
     color: #968973;
     margin-top: 0;
 }
 
 footer p {
-    color: #fffcf0;    
-    font-size: 1.1rem;
+    color: #fffcf0;       
 }
 
 /* Color texto logo: #957f73, color texto h2, h3, h4, h5, h6: #968973, color fondo footer: #685151, color texto footer: #fffcf0 */
